@@ -59,6 +59,10 @@ section {
     line-height: 2em;
 }
 
+section > p {
+    padding-bottom: 1.5em;
+}
+
 .normal {
     background-color: white;
     color: black;
@@ -66,13 +70,27 @@ section {
 
 .imagem {
     background-color: #3c3c3c;
-    color: white
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.423);
 }
 
 .imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: #00000049;
+    background-color: #000000c6;
+    text-shadow: 2px 2px 0px black;
+}
+
+#img01{
+    background-image: url(../pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img02{
+    background-image: url("../pacote-d012/imagens/background002.jpg");
+    background-position: right center;
 }
 
 footer {

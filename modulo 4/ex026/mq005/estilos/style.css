@@ -67,6 +67,7 @@ article p {
     color: white;
     text-align: center;
     padding: 10px;
+    transition: .2s;
 }
 
 #burguer:hover {
